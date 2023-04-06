@@ -4,7 +4,7 @@
 <br/>
 
 **[POST]** `/webhooks/alert`
-```json
+```js
 {
     "severity": string,
     "data": {
@@ -19,7 +19,7 @@
 <br/>
 
 **[POST]** `/webhooks/statsupdate`
-```json
+```js
 {
     "stats": {
         "totalPackets": {
