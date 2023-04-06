@@ -27,7 +27,8 @@
         },
         "bytesTransferred": {
             "value": integer
-        }
+        },
+        ...
     },
     "lastUpdated": integer,      // Unix timestamp when last update was sent
     "emittedTimestamp": integer  // Unix timestamp when event was emitted
